@@ -1,0 +1,465 @@
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar {
+height: 100%;
+padding: 40px 0;
+color: white;
+}
+
+.menu__item {
+    margin-left: 30px;
+}
+
+.menu__item a {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 14px;
+color: white;
+}
+.menu__item a:hover {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+}
+.menu__item i:hover {
+    color: rgb(190, 190, 190);
+    cursor: pointer;
+}
+
+.header {
+    /* display: flex; */
+    padding: 280px 0;
+    text-align: center;
+}
+
+.header img:hover {
+    cursor: pointer;
+}
+
+.pad {
+    padding-left: 240px;
+}
+
+.header h1{
+    font-size: 52px;
+}
+.header h2{
+    font-size: 36px;
+}
+
+.header p{
+margin-bottom: 55px;
+}
+.button{
+    padding: 15px 45px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: unset;
+    color: white;  
+    transition: 0.1s;  
+    border-radius: 3px;
+}
+.log{
+    width: 100%;
+}
+.button:focus {outline:0;}
+
+.button:hover{
+    background: #9c7a5d;
+    cursor: pointer;
+}
+
+.button-full{
+    background: #998675;
+}
+
+
+.arrow-left:hover {
+    transition: 0.3s;
+    background-color: rgba(216, 216, 216, 0.295);
+}
+.arrow-right{   
+    transform: rotate(180deg);
+}
+.arrow-right:hover {   
+    transition: 0.3s;
+    background-color: rgba(216, 216, 216, 0.295);
+}
+.circle{
+    margin: auto;
+}
+.circle i{
+    padding: 10px;
+}
+.circle i:hover{
+    cursor: pointer;
+    color: rgb(97, 97, 97);
+    transition: 0.3s;
+}
+
+.searchbox {
+   position: relative;
+   margin-left: 720px;
+   margin-top: -50px;
+   display: none;
+  }
+
+ .searchbox .input{
+     width: 0px;
+     border: 0;
+     height: 45px;
+     padding: 0px 35px;
+     border-radius: 50px;
+     box-shadow: 0 0 10px 1px #b6bbc0;
+     outline: none;
+     color: #525252;
+     font-size: 18px;
+     font-weight: normal;
+     -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+ }
+ .searchbtn{
+     position: absolute;
+     top: 0;
+     right: -1px;
+     background: #555555;
+     width: 45px;
+     height: 45px;
+     border-radius: 50px;
+     cursor: pointer;
+     transition: all 0.5s linear;
+
+ }
+
+ .searchbtn .fas{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     transition: all 0.5s linear;
+ }
+ .searchbtn:hover{
+    background: #969696;
+    transition: 0.1s;
+ }
+ .searchbtn .fas{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     transition: all 0.5s linear;
+ }
+
+ .searchbox .input.active-width{
+     width: 400px;
+ }
+
+ .line{
+    border-top: 3px solid ;
+    width: 70px;
+    margin: auto;
+    color: #f1eee9;
+ }
+ .col-xl-3:hover div, .col-xl-3:hover h3{
+     color: #c7b299;
+     cursor: pointer;
+ }
+
+ .ideas{
+     padding-top: 70px;
+     background-color: #FBFAF8;
+     text-align: center;
+ }
+
+ .ideas h3{
+     color: #555555;
+     font-size: 30px;
+ }
+
+ .ideas p{
+     color: #8c8c8c;
+     font-size: 16px;
+ }
+
+ /*------------ advantages ---------------*/
+ .advantages{
+     color: #8c8c8c;
+     background: white;
+     text-align: center;
+     padding-top: 80px;
+     padding-bottom: 80px;
+ }
+
+ .advantages p{
+     font-size: 14px;
+ }
+ .advantages h3{
+     font-size: 22px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     color: #555555;
+ }
+ 
+ /* ////////////--our-project-//////////////// */
+
+ .our-project{
+     text-align: center;
+     margin-top: 80px;
+ }
+ .our-project h3{
+     font-size: 30px;
+     color: #555555;
+ }
+ .our-project p{
+     font-size: 16px;
+     color: #8c8c8c;
+ }
+ .our-buttons{
+     margin-top: 20px;
+ }
+ .our-buttons button{
+     border-radius: 4px;
+     padding: 10px 25px 10px 25px;
+     background-color: white;
+     color: #8c8c8c;
+     border: 1px solid #ebebeb;
+     font-size: 14px;
+ }
+ .our-buttons button:hover{
+     background-color: #998675;
+     color: white;
+     cursor: pointer;
+ }
+
+ .latest-projects {
+     margin-bottom: 70px;
+ }
+ .latest-projects .container .row{
+     margin-top: 30px;
+ }
+
+ .latest-projects .under-photo:hover{
+     background-color: #362F2D;
+ }
+ .latest-projects .under-photo:hover h3{
+     color: white;
+ }
+ .latest-projects .under-photo:hover p{
+     color: #c7b299;
+ }
+
+ .mobile-devices .col-xl-8{
+     margin-top: 80px;
+ }
+
+ .middle{
+    transition: 0.3s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+ }
+
+ .project-img{
+    background-color: rgb(12, 8, 8);
+    width: 370px;
+    height: 237px;
+    overflow: hidden;
+ }
+ .project-img img{
+    display: block;
+ }
+ .project-img:hover img{
+    transition: 0.8s ease;
+    opacity: 0.3;
+    transform: scale(1.2);
+ }
+ .project-img:hover .middle{
+    opacity: 1;
+ }
+ 
+ .on-photo-icons i{
+    color: white;
+    font-size: 25px;
+    padding: 16px 10px;
+  }
+ .on-photo-icons i:hover{
+    color: #a38866;
+    cursor: pointer;
+  }
+ 
+ .under-photo{
+     width: 370px;
+     height: 100px;
+     background-color: #FBFAF8;
+    }
+    
+ .under-photo img{
+        margin-top: -38px;
+        margin-left: 20px;
+    }
+ .under-photo h3{
+        margin-left: 20px;
+        font-size: 20px;
+        color: #c7b299;
+    }
+ .under-photo p{
+        margin-left: 20px;
+        font-size: 14px;
+        color: #d1d1d1;
+    }
+
+ /* //////MODAL////// */
+
+ /* Full-width input fields */
+.modal input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .cancelbtn {
+    padding: 10px 18px;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  .container{
+      padding: 10px;
+  }
+  
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  .col-xl-3{
+      margin: auto;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  .multipurpose{
+      margin-top: -10px;
+    height: 150px;
+    background-image: linear-gradient(to right, #211b19 , #4e3427);
+    color: white;
+    text-align: left;
+    padding-top: 40px;
+  }
+  .multipurpose button{
+      margin-left: 390px;
+      padding: 0;
+      width: 170px;
+      height: 50px;
+      font-size: 14px;
+  }
+
+  .video-presentation {
+      background: url(../img/videoBG.png);
+      background-color: #82838477;
+      width: 100%;
+      height: 705px;
+      text-align: center;
+      padding-top: 20%;
+      color: white;
+      margin-bottom: 80px;
+  }
+  .video-presentation h3{
+      margin-top: 40px; 
+      margin-bottom: 30px;  
+      font-size: 30px;   
+  }
+  .video-presentation p:nth-of-type(1){ 
+      font-size: 16px;   
+  }
+  .video-presentation p:nth-of-type(2){ 
+      font-size: 14px; 
+      color: #c7b299;  
+      font-weight: bold;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    color: black;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+
+  
